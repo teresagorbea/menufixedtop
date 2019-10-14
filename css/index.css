@@ -22,6 +22,10 @@ p{
     color: #fff;
     width: ;
     padding: 2em 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
 .header a{
@@ -61,4 +65,7 @@ p{
     text-align: center;
     margin-top: 6rem;
     padding: 4rem 0;
+}
+.main{
+    padding-top: 12rem;
 }
