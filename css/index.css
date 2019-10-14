@@ -21,4 +21,38 @@ p{
     background: #333;
     color: #fff;
     width: ;
+    padding: 2em 0;
+}
+
+.header a{
+    color: #fcf9f9;
+    text-decoration: none;
+}
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+    background: #4a4a4a;
 }
